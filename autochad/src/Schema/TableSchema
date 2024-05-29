@@ -1,0 +1,11 @@
+CREATE TABLE AutoStand (
+    DriverID INTEGER PRIMARY KEY AUTOINCREMENT,
+    FirstName TEXT NOT NULL,
+    LastName TEXT NOT NULL,
+    PhoneNumber TEXT NOT NULL UNIQUE,
+    LicenseNumber TEXT NOT NULL UNIQUE,
+    VehicleType TEXT NOT NULL,
+    VehicleModel TEXT NOT NULL,
+    VehicleNumber TEXT NOT NULL UNIQUE,
+    AreaName TEXT NOT NULL
+);
