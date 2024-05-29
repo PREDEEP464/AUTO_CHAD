@@ -104,12 +104,12 @@ function Search() {
               </div>
             ) : (
               <div className="flex flex-col items-center justify-center">
-                <p className="text-gray-500 mr-2">Use your location to get your cabs</p>
-                <div className="mr-10 flex flex-row">
-                  <img src={auto} alt="Auto" className="w-60 h-60" />
+                <p className="text-gray-500 mr-2 mb-5">Use your location to get your cabs</p>
+                <div className="mr-5 flex justify-center items-center">
+                  <img src={auto} alt="Auto" className="w-54 h-60" />
                   <img src={taxi} alt="Taxi" className="w-54 h-54" />
                 </div>
-                <p className="text-gray-500 mr-2">Get your Taxis And Autos Near Your Community </p>
+                <p className="text-gray-500 mr-2 mt-5">Get your Taxis And Autos Near Your Community </p>
               </div>
             )
           )}
