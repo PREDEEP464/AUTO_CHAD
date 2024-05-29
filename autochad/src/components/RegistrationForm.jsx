@@ -51,7 +51,7 @@ function RegistrationForm() {
     }
 
     try {
-      const response = await fetch('/api/autoStand/new', {
+      const response = await fetch('https://autoapi.rajvikash-r2022cse.workers.dev/autoStand/new', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

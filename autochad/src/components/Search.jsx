@@ -24,7 +24,7 @@ function Search() {
     }
 
     setLoading(true);
-    fetch(`/api/autoStand/${areaName}`)
+    fetch(`https://autoapi.rajvikash-r2022cse.workers.dev/autoStand/${areaName}`)
       .then(response => response.json())
       .then(data => {
         setResults(data.results);
