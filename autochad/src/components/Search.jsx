@@ -56,8 +56,8 @@ function Search() {
           <input
             type="text"
             id="search"
-            placeholder="Enter your search here"
-            value={areaName.toLowerCase()}
+            placeholder="Search here (lowercase)"
+            value={areaName}
             onChange={(e) => setAreaName(e.target.value)}
             className="w-full rounded-md border border-yellow-500 px-4 py-2 focus:outline-none focus:ring-1 focus:ring-yellow-500 text-black"
           />

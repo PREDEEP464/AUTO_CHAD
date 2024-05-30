@@ -112,7 +112,7 @@ function RegistrationForm() {
             Home
           </Link>
         </div>
-        <h1 className="text-3xl font-bold mb-6 text-center">Registration</h1>
+        <h1 className="text-3xl font-bold mb-6 mr-8 text-center">Registration</h1>
         <form onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <FormField label="First Name" name="FirstName" value={formData.FirstName} onChange={handleChange} required error={errors.FirstName} />
