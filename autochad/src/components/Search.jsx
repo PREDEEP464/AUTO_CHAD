@@ -50,13 +50,13 @@ function Search() {
   return (
     <div className="flex min-h-screen bg-gradient-to-r from-black to-yellow-400 items-center justify-center p-4 sm:p-8">
       <ToastContainer theme="colored" />
-      <div className="w-full sm:w-2/3 h-max max-w-xl mx-auto p-8 bg-slate-100 rounded-xl shadow-md">
+      <div className="w-full sm:w-2/3 h-max max-w-xl mx-auto p-8 bg-slate-200 rounded-xl shadow-md">
         <h1 className="text-3xl font-bold mb-6 text-center">Search your Cab</h1>
         <div className="relative flex items-center">
           <input
             type="text"
             id="search"
-            placeholder="Search here (lowercase)"
+            placeholder="Search here"
             value={areaName}
             onChange={(e) => setAreaName(e.target.value)}
             className="w-full rounded-md border border-yellow-500 px-4 py-2 focus:outline-none focus:ring-1 focus:ring-yellow-500 text-black"
