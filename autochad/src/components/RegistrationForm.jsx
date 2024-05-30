@@ -101,7 +101,7 @@ function RegistrationForm() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-black to-yellow-400 flex items-center justify-center min-h-screen">
+    <div className="bg-gradient-to-r from-black to-yellow-400 flex items-center justify-center min-h-screen p-5 sm:p-10">
       <ToastContainer 
       theme="colored"
       style={{ top: '10px', right:'20px' }} 

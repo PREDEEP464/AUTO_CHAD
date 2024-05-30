@@ -48,16 +48,16 @@ function Search() {
   };
 
   return (
-    <div className="flex min-h-screen bg-gradient-to-r from-black to-yellow-400 items-center justify-center">
+    <div className="flex min-h-screen bg-gradient-to-r from-black to-yellow-400 items-center justify-center p-4 sm:p-8">
       <ToastContainer theme="colored" />
-      <div className="w-2/3 h-max max-w-xl mx-auto p-8 bg-slate-100 rounded-xl shadow-md">
+      <div className="w-full sm:w-2/3 h-max max-w-xl mx-auto p-8 bg-slate-100 rounded-xl shadow-md">
         <h1 className="text-3xl font-bold mb-6 text-center">Search your Cab</h1>
         <div className="relative flex items-center">
           <input
             type="text"
             id="search"
             placeholder="Enter your search here"
-            value={areaName}
+            value={areaName.toLowerCase()}
             onChange={(e) => setAreaName(e.target.value)}
             className="w-full rounded-md border border-yellow-500 px-4 py-2 focus:outline-none focus:ring-1 focus:ring-yellow-500 text-black"
           />
@@ -85,10 +85,8 @@ function Search() {
         <div className="mt-4">
           {loading ? (
             <div className="items-center justify-center w-full flex">
-
-            <div className='loader'></div>
-            
-                    </div>
+              <div className='loader'></div>
+            </div>
           ) : (
             results.length > 0 ? (
               <div>
@@ -108,12 +106,12 @@ function Search() {
               </div>
             ) : (
               <div className="flex flex-col items-center justify-center">
-                <p className="text-gray-500 mr-2 mb-5">Use your location to get your cabs</p>
-                <div className="mr-5 flex justify-center items-center">
-                  <img src={auto} alt="Auto" className="w-54 h-60" />
-                  <img src={taxi} alt="Taxi" className="w-54 h-54" />
+                <p className="text-gray-500 mb-5">Use your location to get your cabs</p>
+                <div className="flex justify-center items-center flex-col sm:flex-row">
+                  <img src={auto} alt="Auto" className="w-32 h-32 sm:w-54 sm:h-60" />
+                  <img src={taxi} alt="Taxi" className="w-32 h-32 sm:w-54 sm:h-54" />
                 </div>
-                <p className="text-gray-500 mr-2 mt-5">Get your Taxis And Autos Near Your Community </p>
+                <p className="text-gray-500 mt-5">Get your Taxis And Autos Near Your Community </p>
               </div>
             )
           )}

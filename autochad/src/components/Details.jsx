@@ -22,8 +22,8 @@ function Details() {
   };
 
   return (
-    <div className="flex min-h-screen bg-gradient-to-r from-black to-yellow-400 items-center justify-center">
-      <div className="w-2/3 h-max max-w-md mx-auto p-8 bg-slate-200 rounded-3xl shadow-md">
+    <div className="flex min-h-screen bg-gradient-to-r from-black to-yellow-400 items-center justify-center p-4 sm:p-8">
+      <div className="w-full sm:w-2/3 h-max max-w-2xl mx-auto p-8 bg-slate-200 rounded-3xl shadow-md">
         <h1 className="text-3xl font-bold mb-6 text-center">Your Cab Details</h1>
         <div className="grid grid-cols-2 gap-4">
           <FormField label="First Name" value={FirstName} />
