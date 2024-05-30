@@ -108,8 +108,8 @@ function Search() {
               <div className="flex flex-col items-center justify-center">
                 <p className="text-gray-500 mb-5">Use your location to get your cabs</p>
                 <div className="flex justify-center items-center flex-col sm:flex-row">
-                  <img src={auto} alt="Auto" className="w-32 h-32 sm:w-54 sm:h-60" />
-                  <img src={taxi} alt="Taxi" className="w-32 h-32 sm:w-54 sm:h-54" />
+                  <img src={auto} alt="Auto" className="mr-2 w-32 h-32 sm:w-48 sm:h-48 lg:w-64 lg:h-64" />
+                  <img src={taxi} alt="Taxi" className="mr-5 w-32 h-32 sm:w-48 sm:h-48 lg:w-64 lg:h-64" />
                 </div>
                 <p className="text-gray-500 mt-5">Get your Taxis And Autos Near Your Community </p>
               </div>
