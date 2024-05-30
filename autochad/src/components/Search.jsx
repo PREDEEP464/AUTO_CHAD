@@ -84,7 +84,11 @@ function Search() {
         </div>
         <div className="mt-4">
           {loading ? (
-            <p className="text-gray-500">Loading...</p>
+            <div className="items-center justify-center w-full flex">
+
+            <div className='loader'></div>
+            
+                    </div>
           ) : (
             results.length > 0 ? (
               <div>
