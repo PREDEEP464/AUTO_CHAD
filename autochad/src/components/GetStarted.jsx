@@ -14,7 +14,7 @@ function GetStarted() {
               Welcome to <span className="text-slate-600">Auto</span><span className="text-orange-400">Chad</span>
             </h1>
             <p className="text-gray-600 text-center mb-8">
-              With AutoChad, you can easily search for taxis and autos near your community or area. Get started now and experience the convenience!
+              With AutoChad you can easily search for taxis and autos near your community or area. Get started now and experience the convenience!
             </p>
 
             <form className="space-y-4">
