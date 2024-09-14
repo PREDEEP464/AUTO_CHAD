@@ -51,7 +51,7 @@ function GetStarted() {
         </div>
       </div>
       <footer className="bg-gradient-to-r from-black to-yellow-400 text-sm text-white text-center py-3">
-        &copy; {new Date().getFullYear()} AutoChad • All rights reserved
+        &copy; {new Date().getFullYear()} TaxiChad • All rights reserved
       </footer>
     </div>
   );
