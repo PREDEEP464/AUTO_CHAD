@@ -11,10 +11,10 @@ function GetStarted() {
           </div>
           <div className="w-full lg:w-1/2 bg-slate-200 rounded-lg shadow-lg p-8 mx-auto">
             <h1 className="text-3xl font-bold text-gray-800 text-center mb-4">
-              Welcome to <span className="text-slate-600">Auto</span><span className="text-orange-400">Chad</span>
+              Welcome to <span className="text-slate-600">Taxi</span><span className="text-orange-400">Chad</span>
             </h1>
             <p className="text-gray-600 text-center mb-8">
-              With AutoChad you can easily search for taxis and autos near your community or area. Get started now and experience the convenience!
+              With TaxiChad you can easily search for taxis and autos near your community or area. Get started now and experience the convenience!
             </p>
 
             <form className="space-y-4">
